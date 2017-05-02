@@ -3,7 +3,7 @@
 # and open the template in the editor.
 FROM java:8
 
-ADD target EjercicioRest.war
+ADD target\ EjercicioRest.war
 EXPOSE 8080
 ENTRYPOINT ["java","-war","\EjercicioRest.war"]
 CMD ["/bin/sh"]
