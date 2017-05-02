@@ -17,6 +17,6 @@ public class PruebaRest {
 
     @GET
     public String respuesta(){
-        return "Hello world";
+        return "Hello world ...";
     }
 }
